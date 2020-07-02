@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/acoordeon/static/css/main.a8c05977.chunk.css",
+    "main.js": "/acoordeon/static/js/main.9a75d59c.chunk.js",
+    "main.js.map": "/acoordeon/static/js/main.9a75d59c.chunk.js.map",
+    "runtime-main.js": "/acoordeon/static/js/runtime-main.23638ccc.js",
+    "runtime-main.js.map": "/acoordeon/static/js/runtime-main.23638ccc.js.map",
+    "static/js/2.bb005240.chunk.js": "/acoordeon/static/js/2.bb005240.chunk.js",
+    "static/js/2.bb005240.chunk.js.map": "/acoordeon/static/js/2.bb005240.chunk.js.map",
+    "index.html": "/acoordeon/index.html",
+    "precache-manifest.ffb7ca6ae8694bf767608eceefeb4157.js": "/acoordeon/precache-manifest.ffb7ca6ae8694bf767608eceefeb4157.js",
+    "service-worker.js": "/acoordeon/service-worker.js",
+    "static/css/main.a8c05977.chunk.css.map": "/acoordeon/static/css/main.a8c05977.chunk.css.map",
+    "static/js/2.bb005240.chunk.js.LICENSE.txt": "/acoordeon/static/js/2.bb005240.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23638ccc.js",
+    "static/js/2.bb005240.chunk.js",
+    "static/css/main.a8c05977.chunk.css",
+    "static/js/main.9a75d59c.chunk.js"
+  ]
+}
