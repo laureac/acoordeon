@@ -1,0 +1,70 @@
+.App {
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-image: radial-gradient(farthest-corner at 10px 10px, #8bbabb,#cd6684, #ffe7ad,#ff677d, );
+  font-family: 'Open Sans', sans-serif;
+  padding: 4.5rem;
+  @media (max-width: 600px){
+    padding: 1.7rem;
+  }
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  .main-header{
+    flex-grow: 1;
+    max-width: 500px;
+    h2{
+      margin: 0;
+      font-size: 3rem;
+      font-weight: 400;
+      letter-spacing: .6rem;
+    }
+    p{
+      line-height: 1.7rem;
+    }
+  }
+  .content-section{
+    flex-grow: 3;
+    max-width: 800px;
+    .accordeon-wrapper{
+      max-width: 100%;
+      .accordeon{
+        font-family: 'Open Sans', sans-serif;
+        font-size: inherit;
+        border-style: none;
+        background: none;
+        cursor: pointer;
+        border-bottom: solid black 1px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        .accordeon-title{
+          font-weight: 300;
+        }
+        .rotate{
+          transform: rotate(90deg);
+        }
+      }
+      .accordeon:hover, .active{
+        color: #ebebeb;
+        transition: .6s ease;
+        .accordeon-icon{
+          path{
+            fill: #ebebeb;
+            transition: .6s ease;
+          }
+        }
+      }
+      .accordeon-content{
+        overflow: hidden;
+        transition: max-height .6s ease;
+        
+        .accordeon-text{
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
